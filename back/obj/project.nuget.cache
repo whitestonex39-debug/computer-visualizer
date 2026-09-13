@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "fRaJGgcBfZg=",
+  "success": true,
+  "projectFilePath": "C:\\Repo\\computer-visualizer\\backend\\backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kyon0704\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.10\\microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
+    "C:\\Users\\kyon0704\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "パッケージ 'Microsoft.OpenApi' 2.0.0 に既知の 高 重大度の脆弱性があります、https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Repo\\computer-visualizer\\backend\\backend.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Repo\\computer-visualizer\\backend\\backend.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
