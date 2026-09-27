@@ -1,0 +1,10 @@
+.colored {
+    background-color: rgb(64, 154, 154);
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+
+    .title {
+        color: black;
+    }
+}

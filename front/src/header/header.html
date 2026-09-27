@@ -1,0 +1,15 @@
+<!--min は最小値、max は最大値、step は何刻みで動くか-->
+<div class="colored">
+    <div class="title">
+        <h1>Computer Visualizer</h1>
+    </div>
+    <div class="bar">
+        <span>low</span>
+        <mat-slider [min]="numbers[0]" [max]="numbers[1]" step="1" showTickMarks>
+            <!--実際に値を持つ部分-->
+            <input matSliderThumb>
+        </mat-slider>
+        <span>high</span>
+    </div>
+
+</div>
