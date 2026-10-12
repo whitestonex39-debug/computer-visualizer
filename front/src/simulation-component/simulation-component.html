@@ -1,3 +1,6 @@
-<div class="left">
-    <p>simulation-component works!</p>
-</div>
+<p>現在レベルは{{levels.level()}}</p>
+@if (levels.level() === 1) {
+<p>瑠璃</p>
+} @else if (levels.level() === 2) {
+<p>凪さん</p>
+}

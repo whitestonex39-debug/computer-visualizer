@@ -7,7 +7,7 @@
         <span>low</span>
         <mat-slider [min]="numbers[0]" [max]="numbers[1]" step="1" showTickMarks>
             <!--実際に値を持つ部分-->
-            <input matSliderThumb>
+            <input matSliderThumb [value]="levels.level" (valueChange)="levels.setLevel($event)">
         </mat-slider>
         <span>high</span>
     </div>

@@ -8,6 +8,7 @@ export enum LevelNumbers {
 @Injectable({
     providedIn: 'root',
 })
+
 export class DetailLevelService {
     level = signal(1);
 

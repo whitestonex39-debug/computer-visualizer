@@ -1,3 +1,23 @@
 <div class="right">
-    <p>code-editor-component works!</p>
+    <div class="editor-container">
+        <div class="editor-toolbar">
+            <button mat-raised-button color="primary">
+                <mat-icon>play_arrow</mat-icon>
+                <span>Run</span>
+            </button>
+        </div>
+
+        <div class="editor-area">
+            <ngx-monaco-editor [options]="editorOptions" [(ngModel)]="code">
+            </ngx-monaco-editor>
+        </div>
+
+
+        <div class="editor-overlay" *ngIf="init">
+            <span>初期化中</span>
+            <span class="loading-dots">
+                <span>.</span><span>.</span><span>.</span>
+            </span>
+        </div>
+    </div>
 </div>

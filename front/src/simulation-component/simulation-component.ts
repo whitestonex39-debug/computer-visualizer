@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject, Input } from '@angular/core';
+import { DetailLevelService } from '../Services/detail-level-service';
+
 
 @Component({
   imports: [],
@@ -7,4 +9,7 @@ import { Component } from '@angular/core';
   templateUrl: './simulation-component.html',
   standalone: true,
 })
-export class SimulationComponent { }
+export class SimulationComponent {
+  @Input() init!: boolean;
+  levels = inject(DetailLevelService);
+}

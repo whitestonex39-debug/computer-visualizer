@@ -1,5 +1,5 @@
 <app-header></app-header>
 <main class="main-content">
-    <app-simulation-component class="left"></app-simulation-component>
-    <app-code-editor-component class="right"></app-code-editor-component>
+    <app-simulation-component [init]="initializing" class="left"></app-simulation-component>
+    <app-code-editor-component [init]="initializing" class="right"></app-code-editor-component>
 </main>
